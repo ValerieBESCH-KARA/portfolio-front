@@ -9,7 +9,8 @@ import PortfolioPage from "./pages/PortfolioPage";
 import ContactPage from "./pages/ContactPage";
 
 import Footer from "./components/Footer";
-import Header from "./components/header";
+import Header from "./components/Header";
+import NotFoundPage from "./pages/NotFoundPage";
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
           <Route path="/formations" element={<FormationsPage />} />
           <Route path="/portfolio" element={<PortfolioPage />} />
           <Route path="/contact" element={<ContactPage />} />
+          <Route path="/*" element={<NotFoundPage />} />
         </Routes>
 
         <Footer />
