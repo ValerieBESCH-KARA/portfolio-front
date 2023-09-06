@@ -1,0 +1,23 @@
+header {
+  background-color: black;
+  height: 100px;
+}
+
+.fontFamilyHeader {
+  font-family: "Alex Brush", cursive;
+  font-size: 35px;
+}
+
+.headerLinkBloc {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+
+header a {
+  text-decoration: none;
+  color: white;
+  margin-right: 20px;
+}
