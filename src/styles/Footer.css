@@ -1,7 +1,5 @@
 footer {
   height: 100px;
-  background-color: black;
-  color: white;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -9,6 +7,6 @@ footer {
 
 footer a {
   text-decoration: none;
-  color: white;
+  color: black;
   font-weight: bold;
 }

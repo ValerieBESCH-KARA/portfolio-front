@@ -1,0 +1,37 @@
+.aboutMeBloc {
+  height: calc(100vh - 200px);
+}
+
+.aboutMe {
+  display: flex;
+  justify-content: center;
+}
+
+.infoMeBloc {
+  display: flex;
+  justify-content: space-between;
+}
+
+.infoMe {
+  width: calc(100vw - 300px);
+  text-align: justify;
+  font-size: 18px;
+}
+
+.infoMe p {
+  margin-bottom: 10px;
+}
+
+.imgMe {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+.imgMe img {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+}

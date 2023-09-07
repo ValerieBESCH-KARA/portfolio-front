@@ -7,3 +7,8 @@
   font-family: "Alex Brush", cursive;
   font-family: "Roboto", sans-serif;
 }
+
+h2 {
+  font-size: 50px;
+  margin: 40px 0;
+}
