@@ -1,9 +1,9 @@
 import "./styles/App.css";
-import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
 import HomePage from "./pages/HomePage";
 import AboutMePage from "./pages/AboutMePage";
-import CompetencesPage from "./pages/Competences";
+import CompetencesPage from "./pages/CompetencesPage";
 import FormationsPage from "./pages/FormationsPage";
 import PortfolioPage from "./pages/PortfolioPage";
 import ContactPage from "./pages/ContactPage";

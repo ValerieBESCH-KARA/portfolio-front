@@ -1,0 +1,27 @@
+.competencesBloc {
+  height: calc(100vh - 200px);
+}
+
+.competencesTitle {
+  display: flex;
+  justify-content: center;
+}
+
+.competencesLogoBloc {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+.competencesLogoBloc div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.competencesLogo {
+  height: 100px;
+  width: 100px;
+  object-fit: contain;
+  margin-bottom: 10px;
+}
