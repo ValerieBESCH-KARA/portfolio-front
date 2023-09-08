@@ -1,6 +1,6 @@
-.competencesBloc {
+/* .competencesBloc {
   height: calc(100vh - 200px);
-}
+} */
 
 .competencesTitle {
   display: flex;
@@ -9,8 +9,13 @@
 
 .competencesLogoBloc {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-around;
   align-items: flex-start;
+}
+
+.competencesLogoSquare {
+  margin: 30px;
 }
 
 .competencesLogoBloc div {
@@ -24,4 +29,34 @@
   width: 100px;
   object-fit: contain;
   margin-bottom: 10px;
+}
+
+.competencesPageBloc {
+  display: flex;
+  width: 1100px;
+}
+
+.competencesTechniques {
+  width: 50%;
+}
+
+.competences {
+  width: 50%;
+  height: 100wh;
+  display: flex;
+  justify-content: start;
+  flex-direction: column;
+  margin-left: 20px;
+}
+
+.competences > div {
+  height: 50%;
+}
+
+.competencesList {
+  margin-left: 50px;
+}
+
+.competencesList li {
+  font-size: 20px;
 }
