@@ -1,0 +1,13 @@
+.formationsPageBloc {
+  height: calc(100vh - 200px);
+  display: flex;
+  justify-content: center;
+}
+
+.competencesPageBloc {
+  display: flex;
+}
+
+.competencesTechniques {
+  width: 50%;
+}
