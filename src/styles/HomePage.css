@@ -2,7 +2,7 @@
   object-fit: cover;
   height: calc(100vh - 200px);
   width: 100vw;
-  opacity: 0.85;
+  opacity: 1.9;
   filter: saturate(red);
 }
 
