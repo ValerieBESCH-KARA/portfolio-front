@@ -25,13 +25,13 @@ const AboutMePage = () => {
           <p>
             Passionnée par le développement web, j'aime éxpérimenter, découvrir
             et apprendre de nouvelles technologies. Je me forme régulièrement
-            sur d'autres languages
+            sur d'autres languages.
           </p>
           <p>
             Dans ce portfolio que j'ai réalisé, je vais vous présenter mes
             compétences, mon parcours ainsi que mes principales intégrations.
           </p>
-          <p>Pour toute question, n'hésitez pas à me contacter.</p>
+          <p>Pour toutes questions, n'hésitez pas à me contacter.</p>
         </div>
 
         <div className="imgMe">

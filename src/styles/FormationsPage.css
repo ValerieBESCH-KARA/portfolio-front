@@ -1,5 +1,27 @@
-.formationsPageBloc {
-  height: calc(100vh - 200px);
+.formationsPageBloc h2 {
   display: flex;
   justify-content: center;
+}
+
+.formationsBloc {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.formationsBloc > div {
+  border: 2px solid green;
+  display: flex;
+  gap: 20px;
+}
+
+.formationsBloc > div p:first-child {
+  border: 2px solid red;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-items: center;
 }

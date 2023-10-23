@@ -6,6 +6,8 @@ import html from "../assets/html.png";
 import node from "../assets/nodeJS.png";
 import ReactJS from "../assets/react.png";
 import reponsive from "../assets/responsiveWeb.png";
+import NextJS from "../assets/Nextjs.png";
+import TypesScript from "../assets/typeScript.png";
 
 const CompetencesPage = () => {
   return (
@@ -53,6 +55,16 @@ const CompetencesPage = () => {
               <div className="competencesLogoSquare">
                 <img src={ReactJS} alt="logo" className="competencesLogo" />
                 <p>React Native</p>
+              </div>
+
+              <div className="competencesLogoSquare">
+                <img src={NextJS} alt="logo" className="competencesLogo" />
+                <p>Next JS</p>
+              </div>
+
+              <div className="competencesLogoSquare">
+                <img src={TypesScript} alt="logo" className="competencesLogo" />
+                <p>TypeScript</p>
               </div>
 
               <div className="competencesLogoSquare">
