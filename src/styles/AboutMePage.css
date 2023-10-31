@@ -20,13 +20,14 @@
 
 .infoMe p {
   margin-bottom: 10px;
+  line-height: 25px;
 }
 
 .imgMe {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 10px;
+  padding-left: 30px;
 }
 
 .imgMe img {

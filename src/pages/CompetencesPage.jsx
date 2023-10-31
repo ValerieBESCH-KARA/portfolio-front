@@ -8,6 +8,7 @@ import ReactJS from "../assets/react.png";
 import reponsive from "../assets/responsiveWeb.png";
 import NextJS from "../assets/Nextjs.png";
 import TypesScript from "../assets/typeScript.png";
+import SQL from "../assets/SQL.png";
 
 const CompetencesPage = () => {
   return (
@@ -35,6 +36,11 @@ const CompetencesPage = () => {
               <div className="competencesLogoSquare">
                 <img src={html} alt="logo" className="competencesLogo" />
                 <p>html</p>
+              </div>
+
+              <div className="competencesLogoSquare">
+                <img src={SQL} alt="logo" className="competencesLogo" />
+                <p>SQL</p>
               </div>
 
               <div className="competencesLogoSquare">

@@ -30,6 +30,10 @@ const FormationsPage = () => {
                 Apprentissage et suivi des cours en ligne proposés par Le
                 Reacteur.
               </p>
+              <p>
+                Réalisation et reproduction de plusieurs sites dont Vinted,
+                Tripadvisor, Marmitton, Marvel, Pokedex...
+              </p>
             </div>
           </div>
 

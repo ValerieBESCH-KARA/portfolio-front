@@ -6,22 +6,32 @@
 .formationsBloc {
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 30px;
 }
 
 .formationsBloc > div {
-  border: 2px solid green;
+  /* border: 2px solid green; */
   display: flex;
   gap: 20px;
 }
 
 .formationsBloc > div p:first-child {
-  border: 2px solid red;
+  /* border: 2px solid red; */
+  text-align: center;
   width: 150px;
   height: 150px;
   border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
-  align-items: center;
+  background-color: rgb(22, 15, 214);
+  color: white;
+}
+
+.formationsBloc > div > div {
+  /* border: 2px blue solid; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
 }

@@ -13,7 +13,7 @@ const AboutMePage = () => {
           <p>
             Je m'appelle Valérie BESCH-KARA, je suis développeur web junior
             depuis septembre 2023. Après avoir travaillé près de 10 ans en tant
-            qu'ostéopathe à mon propre compte à Lyon, j'ai voulu me réorienter
+            qu'ostéopathe à mon compte à Lyon, j'ai voulu me réorienter
             vers une discipline qui m'a toujours plu : l'informatique.
           </p>
           <p>
