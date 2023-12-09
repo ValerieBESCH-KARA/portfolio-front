@@ -1,3 +1,4 @@
+import ContactForm from "../components/ContactForm";
 import "../styles/ContactPage.css";
 
 import Github from "../assets/github.png";
@@ -7,6 +8,8 @@ const ContactPage = () => {
   return (
     <div className="container contactPage">
       <h3>Contactez-moi</h3>
+
+      <ContactForm />
 
       <h4>N'hésitez pas à me suivre sur :</h4>
       <div className="contactLogoBloc">
